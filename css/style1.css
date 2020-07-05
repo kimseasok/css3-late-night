@@ -1,0 +1,59 @@
+@import '/css/normalize.css';
+@import '/css/style2.css';
+
+h1 {
+    color: cyan;
+    font-size: 3.5em;
+    text-decoration: underline;
+    text-transform: lowercase;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+#relative-size {
+    font-size: 2em;
+}
+
+#rem-relative-size {
+    font-size: 2rem;
+}
+
+section {
+    color: darkmagenta;
+}
+
+
+/* 
+    I'm the css comment
+
+*/
+
+h3 {
+    color: royalblue;
+}
+
+h3 {
+    color: red;
+}
+
+h3 {
+    font-size: 3.5em;
+}
+
+#heading-id {
+    color: unset;
+}
+
+.heading {
+    color: violet;
+}
+
+h2 {
+    color: yellow;
+}
+
+
+
+
