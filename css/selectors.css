@@ -1,0 +1,77 @@
+* {
+    color: dimgray;
+}
+
+h1 {
+    color: red;
+}
+
+h2,
+p {
+    color: black;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+code {
+    background-color: grey;
+    color: red;
+}
+
+#my-id {
+    text-transform: capitalize;
+}
+
+#my-id1 {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+a{
+    text-decoration: none;
+}
+
+a[href="http://google.com"] {
+    color: magenta;
+}
+
+a[title="alternative-se"] {
+    color: maroon;
+}
+
+a:hover{
+    color: orange;
+}
+
+a:visited {
+    color: blue;
+}
+
+input {
+    padding: .5em;
+    color: red;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid blue;
+
+}
+
+input::placeholder{
+    color: seagreen;
+}
+
+#pseudo-element::first-letter{
+    font-size: 2.5em;
+}
+
+article > p {
+
+    color: green;
+}
