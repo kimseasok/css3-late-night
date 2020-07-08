@@ -1,0 +1,67 @@
+#canva {
+    background-color: midnightblue;
+    max-width: 600px;
+    min-width: 500px;
+    min-height: 80px;
+    max-height: 150px;
+    overflow-y: scroll;
+}
+
+/* constrol */
+
+#canva1 {
+
+    height: 500px;
+    width: 500px;
+    background-color: rgb(153, 119, 57);
+
+    /* margin-left: 50px;
+    margin-top: 50px; */
+
+    /* margin: 50px 0 0 50px; */
+
+    /* margin: 0 50px; */
+
+    padding: 50px 50px 0 50px;
+}
+
+#inside-block {
+
+    background-color: orangered;
+
+    /* margin-top: 50px; */
+
+    padding: 50px;
+
+    /* border: 10px;
+
+    border-style: solid;
+
+    border-color: steelblue; */
+
+    border: 10px solid steelblue;
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+}
+
+#inline-box > span {
+
+    background-color: teal;
+    padding: 20px;
+    margin: 0 10px;
+    width: 100%;
+
+}
+
+#block-wrap > div {
+
+    display: inline-block;
+    background-color: tomato;
+    /* margin: 0 20px; */
+    width: 500px;
+    min-width: 400px;
+    max-width: 500px;
+}

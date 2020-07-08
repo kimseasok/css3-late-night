@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3 Box Model</title>
+    <link rel="stylesheet" href="/css/box-model.css">
+</head>
+
+<body>
+    <h1>CSS3 Box Model</h1>
+
+    <p>Every property used in CSS has a value or set of values that are allowed for that property,
+        and taking a look at any property page on MDN will help you understand the values that are valid for any
+        particular property. <br>
+        When laying out a document, the browser's rendering engine represents each element as a rectangular box
+        according to the standard CSS basic box model,
+        according <cite><a
+                href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model">MDN</a></cite>
+    </p>
+
+    <h2>Understand Basic Box Model</h2>
+
+    <div id="block-box">
+
+        <p>Hello! I'm a paragraph. I'm a block box</p>
+
+        <p>Hello! I'm another paragraph. I'm another block box</p>
+
+    </div>
+
+    <div id="inline-box">
+
+        <strong>Hello!</strong><em> I'm an <code>Em</code> tag. I'm an inline box.</em> <br>
+
+        <i>Hello!</i><a href="#"> I'm a link. I'm also inline box</a>
+        
+    </div>
+
+    <h3>control width and height of block elements</h3>
+
+    <!-- control width and hight -->
+
+    <div id="canva">
+
+        <p>Hello world</p>
+        <p>Hello world</p>
+        <p>Hello world</p>
+        <p>Hello world</p>
+        <p>Hello world</p>
+        <p>Hello world</p>
+        <p>Hello world</p>
+
+    </div>
+
+    <h3>Control spacing of block elements</h3>
+
+    <!-- control margin, padding, border -->
+
+    <div id="canva1">
+
+        <div id="inside-block">I'm insdie content</div>
+
+    </div>
+
+    <h3>Inline Box</h3>
+
+    <p id="inline-box"><span>I'm inline box</span><span>I'm another inline</span></p>
+
+    <h2>Control Diplay</h2>
+
+    <h3>Control display of block box</h3>
+
+    <div id="block-wrap">
+
+        <div> Block 1</div>
+
+        <div> block 2</div>
+
+        <div> block 3</div>
+
+    </div>
+
+    <ul>
+
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+
+    </ul>
+
+    <h2>Position</h2>
+
+    <div id="position-wrap">
+
+        <div id="fix">I'm a normal blox</div>
+
+        <div id="absolute">I'm floating</div>
+
+    </div>
+
+    <h2>Floating</h2>
+
+    <div id="float-wrap" class="clear">
+
+        <div id="left">
+            <p>I'm floating left</p>
+            <p>I'm floating left</p>
+        </div>
+
+        <div id="right">I'm floating right</div>
+
+        <br class="clear">
+
+
+    </div>
+
+    <h2>Layer (index)</h2>
+
+    <div id="index-wrap">
+
+        <div id="box1">I'm box 1</div>
+
+        <div id="box2">I'm box 1</div>
+
+        <div id="box3">I'm box 1</div>
+
+    </div>
+
+</body>
+
+</html>
