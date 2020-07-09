@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+    padding: 0;
+}
 #canva {
     background-color: midnightblue;
     max-width: 600px;
@@ -64,4 +68,109 @@
     width: 500px;
     min-width: 400px;
     max-width: 500px;
+}
+
+#position-wrap {
+    background-color: slategray;
+    /* padding: .5em; */
+    position: relative;
+    height: 400px;
+}
+
+#position-wrap > div {
+
+    height: 100px;
+    
+}
+
+#position-wrap > div:first-child {
+
+    background-color: tomato;
+
+}
+
+#position-wrap > div:last-child {
+    background-color: teal;
+}
+
+#absolute {
+    position: absolute;
+    /* width: 300px; */
+
+    bottom: 2em;
+    top: 3em;
+    left: 2em;
+    right: 2em;
+}
+
+#fix {
+    height: 500px;
+    width: 4em;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 99;
+}
+
+#float-wrap {
+
+    background-color: steelblue;
+    padding: 2em;
+}
+
+#float-wrap > div {
+
+    height: 100%;
+}
+
+#left {
+    background-color: orangered;
+    float: left;
+    width: 200px;
+}
+
+#right {
+    background-color: saddlebrown;
+    height: 100%;
+}
+
+.clear {
+    clear: both;
+}
+
+#index-wrap {
+
+    background-color: seagreen;
+    position: relative;
+    width: 100%;
+    height: 300px;
+
+}
+
+#index-wrap > div {
+
+    width: 200px;
+
+    height: 200px;
+
+    position: absolute;
+
+}
+
+#box1 {
+    background-color: sienna;
+    z-index: 1;
+}
+
+#box2 {
+    background-color: slateblue;
+
+    left: 100px;
+    z-index: 2;
+}
+
+#box3 {
+    background-color: darkgoldenrod;
+
+    top: 100px;
 }
