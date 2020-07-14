@@ -1,0 +1,74 @@
+#page > h1 {
+    /* background-color: coral; */
+    background-color: rgb(255, 190, 200);
+    /* background-color: rgba(0, 0, 255, .2); */
+    /* background-color: hsl(230, 10%, 50%); */
+
+    height: 300px;
+    width: 300px;
+    line-height: 300px;
+    text-align: center;
+    padding: 2em;
+    color: transparent;
+    font-size: 3em;
+    background-image: url(/images/woman-in-water.jpg);
+    background-size: cover;
+    /* background-position-x: center; */
+    background-position: -200px;
+
+    border: 30px dashed orangered;
+    background-clip: content-box;
+    /* background-clip: border-box; */
+    /* background-clip: padding-box; */
+    /* background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text; */
+
+}
+
+#banner {
+    height: 500px;
+    width: 500px;
+    background: 
+    linear-gradient(40deg, rgba(8, 8, 8, 0.9) 70%, rgba(255, 255, 0, .2)),
+    url(/images/woman-in-water.jpg);
+    background-repeat: no-repeat;
+}
+
+body {
+    background-image: url(/images/background-partern.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* 
+#border {
+
+    height: 500px;
+    width: 500px;
+    background-color: lightseagreen;
+
+    border: 20px solid #ccc;
+    border-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+} */
+
+#border {
+    height: 500px;
+    width: 500px;
+    background-color: lightseagreen;
+
+    /* padding: 2em; */
+
+    /* border-width: 2em;
+    border-style: solid;
+    border-image-source: url(/images/pertern-image.png);
+    border-image-slice: 17;
+    border-image-outset: 2em;
+    background-clip: content-box; */
+
+    border: 2em solid;
+    border-image: url(/images/pertern-image.png) 17;
+
+}
