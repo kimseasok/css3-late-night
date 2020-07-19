@@ -1,0 +1,37 @@
+a {
+    color: orange;
+    text-decoration: none;
+}
+
+a:hover{
+
+    color: orangered;
+
+}
+
+a:active {
+
+    color: palevioletred;
+}
+
+a:focus {
+    color: seagreen;
+    outline: none;
+}
+
+ul {
+    list-style-type: none;
+    /* list-style-position: inside ;
+    list-style-image: url(/images/bicycle-solid.svg); */
+}
+
+li {
+    background-color: orangered;
+}
+
+li::before {
+    content: url(/images/bicycle-solid.svg);
+    display: inline-block;
+    width: 1em;
+    margin-right: 1em;
+}

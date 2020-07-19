@@ -1,0 +1,67 @@
+/* @font-face {
+    font-family: 'Roboto';
+    src: url(/font/Roboto-Bold.woff2) format('woff2'),
+        url(/font/Roboto-Bold.woff) format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(/font/Roboto-Regular.woff2) format('woff2'),
+        url(/font/Roboto-Regular.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+} */
+
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 4em;
+    text-shadow: 1px 3px 1px #cccccc;
+}
+
+p,
+ul {
+    font-family: 'Roboto', 'Arial', 'sans-serif';
+    font-weight: 300;
+    font-size: 1em;
+    color: lightslategrey;
+}
+
+p > span {
+
+    font-style: italic;
+}
+
+p:first-child {
+    line-height: 1.5;
+    /* text-align: right; */
+    /* text-transform: capitalize; */
+    letter-spacing: 2px;
+    /* writing-mode: vertical-lr;
+    text-orientation: upright; */
+}
+
+a {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: lightsalmon;
+}
+
+#direction {
+
+    direction: rtl;
+    
+}
+
+#direction > p {
+
+    display: inline-block;
+    width: 23%;
+}
